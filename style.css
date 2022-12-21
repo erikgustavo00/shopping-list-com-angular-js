@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body,html{
+    height: 100%;
+}
+h2{
+    padding:20px ;
+    
+}
+.pai{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 100%;
+    
+}
+.filha{
+    background-color: rgb(227, 227, 227);
+
+    width: 355px;
+    
+    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.filha ol{
+    list-style-position: inside;
+}
+.filha ol li{
+    background-color: white;
+    border: 1px solid rgb(227, 227, 227);
+
+    width: 100%;
+    padding: 20px;
+    
+
+    font-size: 23px;
+}
+.botao{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 15px 2%;
+    
+}
+.botao input{
+    width: 100%;
+    padding: 5px;
+    border: 1px;
+    border-radius: 5px;
+    font-size: 24px;
+    outline: 0;
+}
+
+.botao button{
+    height: 100%;
+    background-color: rgb(9, 255, 9);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
